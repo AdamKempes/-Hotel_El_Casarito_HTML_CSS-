@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="formulario.css" rel="stylesheet">
+  <style>
+    ul {
+      list-style-type: none;
+      margin-top: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(35, 37, 54);
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><a class="active" href="hotel.html">Inicio</a></li>
+      <li><a href="habitaciones.html">Habitaciones</a></li>
+      <li><a href="precios.html">Precios</a></li>
+      <li><a href="reserva.html">Reserva Ya</a></li>
+      <li><a href="salamanca.html">Sobre Salamanca</a></li>
+    </ul>
+
+</body>
+<body>
+    <div class="body">
+    <div class="contact_form">
+        <div class="formulario">
+            <h1 style="text-align: center;">El Casarito</h1>
+            <h3 style="text-align: center;">Reserva ya tu habitación</h3>
+        </div>
+        <form actions="" method=""></form>
+        <p>
+            <label class="colocar_nombre">Nombre</label> 
+            <input type="text" required="obligatorio" placeholder="Escribe tu nombre" >
+        </p>
+        <p>
+            <label class="colocar_email">Nº teléfono</label> <br>
+            <input type="email" required="obligatorio" placeholder="Escribe tu numero de teléfono">
+        </p>
+        <form>
+            <label class="colocar_email">Escoga la habitación que desee</label> <br>
+            <select id="country" name="country">
+            <option value="1">Habitación 1</option>
+            <option value="2">Habitación 2</option>
+            <option value="3">Habitación 3</option>
+            </select>
+          </form> 
+          <br><br>
+        <form action="" method="">
+            <label class="colocar_email">Seleccione la fecha de ida</label>
+                <input type="date" name="day"/>
+            </form>
+        <form action="" method="">
+            <label class="colocar_email">Seleccione la fecha de vuelta</label>
+                 <input type="date" name="day"/>
+
+
+        </form>
+        <form>
+            <label class="colocar_email">Selecione su método de pago</label> <br>
+            <select id="country" name="country">
+            <option value="1">Visa</option>
+            <option value="2">Mastercard</option>
+            <option value="3">Paypal</option>
+            </select>
+          </form>  
+        
+             <button type="submit">Enviar datos</button>
+        </p>
+        <div class="animación">DISFRUTE DE SU ESTANCIA</div>
+</body>
+</html>
